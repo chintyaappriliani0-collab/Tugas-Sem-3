@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #1f2328;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.search-box button {
+  padding: 10px 18px;
+  background-color: #2da44e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #2c974b;
+}
+
+.status {
+  text-align: center;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.status.loading {
+  background-color: #ddf4ff;
+  color: #0969da;
+}
+
+.status.error {
+  background-color: #ffebe9;
+  color: #cf222e;
+  font-weight: 600;
+}
+
+.card {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  border: 2px solid #d0d7de;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.card p.bio {
+  font-size: 0.9rem;
+  color: #57606a;
+  margin-bottom: 14px;
+}
+
+.card .stats {
+  background-color: #f6f8fa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #24292f;
+  color: #ffffff;
+  padding: 9px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card a:hover {
+  background-color: #32383f;
+}
+
+.hidden {
+  display: none;
+}
